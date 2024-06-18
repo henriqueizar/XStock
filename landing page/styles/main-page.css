@@ -1,0 +1,82 @@
+
+.main-page-div{
+    vertical-align: top;
+    margin: 2% 4% 0 4%;
+}
+.left-div{
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 45%;
+    margin: auto;
+}
+.xstock{
+    font-family: Lexend Mega;
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-weight: 450;
+    display: block;
+}
+.p-main{
+    display: block;
+    font-size: 60px;
+    margin-top: 10%;
+    font-weight: 350;
+    width: 95%;
+    line-height: 65px;
+}
+.p-sub{
+    display: block;
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+    margin-top: 15%;
+}
+.right-div{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin: auto;
+}
+.button{
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+.button-action{
+    font-family: Poppins;
+    background-color: rgb(51,206,171);
+    border: 0;
+    color: white;
+    border-radius: 100px;
+    text-align: center;
+    padding:15px;
+    width: 50%;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+.button-action:hover{
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.button-action:active{
+    opacity: 0.4;
+    transition: 0.1s;
+
+}
+.img-landing {
+    width: 48vw;
+    display: flex;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    width: 100%;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
