@@ -1,7 +1,7 @@
 
 .main-page-div{
     vertical-align: top;
-    margin: 2% 4% 0 4%;
+    margin: 4% 4% 4% 4%;
 }
 .left-div{
     display: inline-block;
@@ -42,6 +42,9 @@
     width: 50%;
     display: block;
 }
+.button a{
+    text-decoration: none;
+}
 .button-action{
     font-family: Poppins;
     background-color: rgb(51,206,171);
@@ -54,6 +57,10 @@
     align-items: center;
     display: block;
     margin: auto;
+}
+.button-action a{
+    color: white;
+    text-decoration: none;
 }
 .button-action:hover{
     background-color: black;
@@ -77,6 +84,7 @@
     vertical-align: top;
     width: 100%;
     vertical-align: top;
-    margin-top: 30px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 

@@ -1,0 +1,11 @@
+@media screen and (max-width: 907px){
+    .left-div , .right-div , .p-main, .p-sub, .xstock, .image{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }    
+    .img-landing{
+        width: 90vw;
+    }
+}

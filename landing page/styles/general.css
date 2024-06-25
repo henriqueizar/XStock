@@ -8,17 +8,6 @@ body,html,p{
     margin: 0;
     font-family: Poppins
 }
-p::selection{
+*::selection{
     background-color: rgb(51,206,171) ;
-}
-@media screen and (max-width: 768px){
-    .left-div , .right-div , .p-main, .p-sub, .xstock{
-        display: block;
-        text-align: center;
-        width: 100%;
-        margin-left: 0;
-    }    
-    .img-landing{
-        width: 90vw;
-    }
 }

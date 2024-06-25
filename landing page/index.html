@@ -4,18 +4,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/down-page.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="styles/main-page.css">
+    <link rel="stylesheet" href="styles/header.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XStock</title>
     <link rel="icon" href="images/XS-logo.jpg">
 </head>
 <body>
+    <header class="header">
+        <a class="logo" href="/landing page/">XS</a>
+        <nav class="navbar">
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Planos</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
     <div class="main-page-div">
         <div class="left-div">
            <p class="xstock">XSTOCK:</p>
@@ -27,13 +36,15 @@
                 <img class="img-landing" src="images/XSTOCK.webp" alt="Imagem Serviço">
             </div>
             <div class="button">
-               <button class="button-action">Começar agora</button>
+                <a href="#down">
+                    <button class="button-action">Saiba mais</button>
+                </a>
             </div>
         </div>
     </div>
-    <div class="down-page-div">
+    <div id="down" class="down-page-div">
         <div class="benefits-div">
-            <h1>Fácil, rápido e eficiente.</p>
+            <h1>Fácil, versátil e eficiente.</p>
             <div class="benefitsss">
                 <div>
                     <img src="images/checkup.png" alt="">
@@ -51,6 +62,12 @@
                     <p>Com o nosso banco de dados, os status dos seus produtos ficam salvos, e podem ser consultados a qualquer momento, até mesmo offline.</p>
                 </div>
                 
+                
+            </div>
+            <div class="button">
+                <a href="#down">
+                    <button class="button-action">Começar agora</button>
+                </a>
             </div>
         </div>
     </div>
