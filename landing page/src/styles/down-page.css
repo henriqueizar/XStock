@@ -8,14 +8,19 @@
     height: 300px;
 }
 .benefits-div h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 29px;
     text-align: center;
 }
 .benefitsss {
+    font-family: 'Poppins', sans-serif;
     margin: 70px 50px 70px 50px;
     display: flex;
     justify-content: space-between;
 }
 .benefitsss div{
+    font-family: 'Poppins', sans-serif;
     display: inline-block;
     text-align: center;
     width: 30%;

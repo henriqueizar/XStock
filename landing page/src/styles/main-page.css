@@ -1,35 +1,40 @@
-
 .main-page-div{
     vertical-align: top;
     margin: 4% 4% 4% 4%;
 }
 .left-div{
     display: inline-block;
-    text-align: left;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     vertical-align: top;
     width: 45%;
     margin: auto;
 }
 .xstock{
-    font-family: Lexend Mega;
+    font-family: 'Lexend Mega', sans-serif;
     font-size: 70px;
     letter-spacing: 5px;
     font-weight: 450;
     display: block;
+    margin-top: 8%;
+    margin-right: 10px;
 }
 .p-main{
+    font-family: 'Poppins', sans-serif;
     display: block;
-    font-size: 60px;
-    margin-top: 10%;
+    font-size: 45px;
     font-weight: 350;
     width: 95%;
     line-height: 65px;
+    letter-spacing: -0.5px;
 }
 .p-sub{
     display: block;
     font-size: 15px;
     color: rgb(95, 95, 95);
-    margin-top: 15%;
+    margin-top: 10%;
+    margin-right: 40px;
 }
 .right-div{
     display: inline-block;
