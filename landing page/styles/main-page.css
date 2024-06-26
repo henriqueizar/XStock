@@ -5,17 +5,18 @@
 }
 .left-div{
     display: inline-block;
-    text-align: left;
+    text-align: center;
     vertical-align: top;
     width: 45%;
     margin: auto;
 }
 .xstock{
     font-family: Lexend Mega;
-    font-size: 70px;
+    font-size: 60px;
     letter-spacing: 5px;
     font-weight: 450;
     display: block;
+    margin-top: 10%;
 }
 .p-main{
     display: block;
@@ -33,9 +34,12 @@
 }
 .right-div{
     display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
     width: 50%;
-    margin: auto;
+    margin: 30px;
+    
+
+
 }
 .button{
     margin: auto;

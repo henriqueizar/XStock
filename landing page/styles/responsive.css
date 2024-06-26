@@ -9,3 +9,12 @@
         width: 90vw;
     }
 }
+
+
+@media screen and (max-width: 500px){
+
+    .image, .button-action{
+        margin-left: 85px;
+    }
+
+}
