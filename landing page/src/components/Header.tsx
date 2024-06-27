@@ -11,7 +11,7 @@ const Header: React.FC = () => {
                 <a href="#">Início</a>
                 <a href="#">Sobre</a>
                 <a href="#">Planos</a>
-                <a href="#">Contato</a>
+                <a href="#redesfooter">Contato</a>
             </nav>
         </header>
     );
