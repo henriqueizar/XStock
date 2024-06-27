@@ -1,13 +1,17 @@
-body{
-    height: 1070px;
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Poppins, sans-serif;
 }
-h1{
+
+h1 {
     font-weight: normal;
 }
-body,html,p{
+
+p {
     margin: 0;
-    font-family: Poppins
 }
-*::selection{
-    background-color: rgb(51,206,171) ;
+
+*::selection {
+    background-color: rgb(51, 206, 171);
 }

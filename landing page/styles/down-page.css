@@ -1,43 +1,48 @@
-.down-page-div{
-    vertical-align: top;
-    margin: 6% 3.5% 3% 3.5%;
+.down-page-div {
+    margin: 6% 3.5%;
     background-color: rgb(244, 244, 244);
     border-radius: 10px;
-    border-style: solid;
-    border-color: rgb(223, 223, 223);
-    height: 700px;
+    border: solid 1px rgb(223, 223, 223);
+    padding: 30px;
 }
-.benefits-div h1{
+
+.benefits-div h1 {
     text-align: center;
 }
+
 .benefitsss {
-    margin: 70px 50px 70px 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin: 70px 0;
 }
-.benefitsss div{
-    display: inline-block;
+
+.benefitsss div {
     text-align: center;
     width: 30%;
+    margin: 20px 0;
 }
+
 .benefitsss div h1 {
     margin-top: 25px;
     font-weight: 600;
-    color: rgb(0, 0, 0);
     font-size: medium;
-
+    color: rgb(0, 0, 0);
 }
-.benefitsss div p{
+
+.benefitsss div p {
     font-weight: 200;
     font-size: small;
 }
-.benefitsss img{
-    vertical-align: top;
+
+.benefitsss img {
     width: 80px;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 #down {
-    padding-bottom: 25%;
-   } 
+    padding-bottom: 25%;
+}
