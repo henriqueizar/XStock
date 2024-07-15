@@ -1,0 +1,38 @@
+footer {
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 0 1rem 0.2rem;
+}
+
+ul, li {
+    list-style: none;
+}
+
+footer > div {
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsredes {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.iconsredes > li{
+    margin: 1rem;
+    text-align: center;
+}
+
+.iconinsta, .iconface, .iconyou {
+    width: 2.5rem;
+    height: auto;
+}

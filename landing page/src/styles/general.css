@@ -1,0 +1,13 @@
+body{
+    height: 1070px;
+}
+h1{
+    font-weight: normal;
+}
+body,html,p{
+    margin: 0;
+    font-family: Poppins
+}
+*::selection{
+    background-color: rgb(51,206,171) ;
+}

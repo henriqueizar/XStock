@@ -1,0 +1,106 @@
+.down-page-div {
+    vertical-align: top;
+    margin: 6% 3.5% 3% 3.5%;
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(223, 223, 223);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.benefits-div h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.benefitsss {
+    font-family: 'Poppins', sans-serif;
+    margin: 70px 50px 70px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.benefitsss div {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.benefitsss div h1 {
+    margin-top: 25px;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.benefitsss div p {
+    font-weight: 300;
+    font-size: small;
+}
+
+.benefitsss img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-action {
+    background-color: rgb(51,206,171);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-action:hover {
+    background-color: rgb(150, 150, 150);
+}
+
+@media (max-width: 768px) {
+    .down-page-div {
+        margin: 4% 2%;
+    }
+
+    .benefits-div h1 {
+        font-size: 24px;
+    }
+
+    .benefitsss {
+        margin: 50px 20px;
+    }
+
+    .benefitsss div {
+        width: 100%;
+        max-width: none;
+    }
+    .button-action {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .button-action {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    .benefits-div h1 {
+        font-size: 20px;
+    }
+}
